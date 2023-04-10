@@ -1,0 +1,47 @@
+.footer {
+    background-color: rgb(22, 16, 16);
+    padding: 30px 0 15px;
+}
+.social-list-footer {
+    max-width: 317px;
+    /* height: 23px; */
+      flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    margin-bottom: 18px;
+   
+}
+.social-list-footer__item {
+    color: #ccc;
+    margin-right: 30px;
+    
+}
+.social-list-footer__item:hover {
+  color: hsl(0, 78%, 19%);
+  font-size: 1.87rem;
+  transition: 1s;
+  
+  }
+.social-list-footer__item:last-child {
+    margin-right: 0px;
+  }
+  .social-list-footer__item a:link {
+    color: #ccc;
+  }
+  .social-list-footer__item a:visited {
+    color: #ccc;
+  }
+  .copy {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: capitalize;
+    text-align: center;
+     
+  }
+  .copyt span {
+    margin-left: 5px;
+  }

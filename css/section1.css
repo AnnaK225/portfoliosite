@@ -1,0 +1,100 @@
+/* @import url("./import-cdn.css"); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+   
+}
+.pricing {
+    padding: 80px 0px 70px;
+    background-color: rgb(218, 207, 207);
+    
+}
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+    
+}
+
+
+.pricing-wrap {
+    /* width: 370px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 -15px;
+   
+}
+.prising-list__item-tarif {
+    text-align: center;
+    font-size: 1.25rem;
+    background-color:rgb(14, 13, 13);
+    color: #ffff;
+    font-weight: 700;
+    padding: 9px 0 14px;
+    margin-bottom: 1px;
+  }
+  .prising-list__item-tarif:hover {
+    font-size: 30px;
+    color: rgb(88, 68, 68);
+    
+  }
+.prising-list__item-price {
+    text-align: center;
+     font-size: 14px;
+     background-color:rgb(14, 13, 13);
+    color: #ffff;
+    font-weight: 600;
+    padding: 17px 0 14px;
+    margin-bottom: 1px;
+ }
+ .prising-list__item-price:hover {
+    font-size: 1.87rem;
+    color: rgb(88, 68, 68);
+    
+  }
+.prising-list__item-free {
+    text-align: center;
+   font-size: 0.87rem;
+   background-color:rgb(14, 13, 13);
+    color: #ffff;
+    font-weight: 400;
+    padding: 10px 0 11px;
+    margin: 4px 0;
+    }
+    .prising-list__item-free:hover {
+        font-size: 1.87rem;
+        color: rgb(88, 68, 68);
+        
+      }
+.prising-list__item {
+    font-size: 0.87rem;
+    background-color:rgb(240, 239, 239);
+    color: #86878B; 
+   text-align: center;
+   margin: 4px 0;
+   font-weight: 400;
+   padding: 10px 0 11px;
+} 
+.prising-list__item:hover {   
+    color: #9398ac; 
+    font-size: 1.87rem;
+    transition: 0.4s;
+   
+} 
+
+.pricing-list {
+    width: 340px;
+    margin: 0 15px;
+   
+}
+   
+
+  
+   
+ 

@@ -1,0 +1,112 @@
+
+.contact__title {
+    margin-top: 80px;
+    }
+.contact__title h2 {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.25rem;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+      
+}
+.contact__title::after {  
+    content: '';
+    border-top: 1px solid rgb(228, 179, 179);
+    background-position: center;
+    width: 64px;
+    display: block;
+    margin: 34px auto 34px;
+     }
+.contact__description {
+    margin-bottom: 95px;
+
+} 
+.contact__description p {
+    font-size: 0.87rem;
+    font-family: 'Open Sans';
+    font-style: normal;
+    line-height: 19px;
+    text-align: center;
+}
+.contact__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* padding: 0 111px 0; */
+    
+
+}
+.form-content__left {
+    
+}
+
+.form-content__labels {
+    display: block;
+   font-size: 0.87rem;
+   font-weight: 400;
+   font-family: 'Open Sans';
+   line-height: 19px;
+   margin-bottom: 32px;
+   margin-top: 32px;
+  
+}
+.form-content__fields {
+    width: 478px;
+    border:0;
+   border-bottom:1px solid rgb(24, 23, 23);
+}
+.form-content__fields:focus {
+    outline: none;
+}
+.form-content__labels:last-child {
+ margin-bottom: 46px;
+
+}
+.contact__text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+  }
+.form-contact__label {
+    font-size: 0.87rem;
+    font-weight: normal;
+    font-family: 'Open Sans';
+    line-height: 19px;
+    
+}
+.contact__message {
+    border: 0;
+    border-bottom: 1px solid #000;
+    width: 478px;
+    resize: none;
+       height: 216px;
+
+  
+}
+.contact__message:focus {
+    outline: none;
+}
+.contact__button {
+       width: 166px;
+    height: 42px;
+     margin: auto;
+    border:0;
+    display: block;
+     margin-top: 68px;
+     margin-bottom: 44px;
+
+
+     border:1px solid transparent;
+    background-color:rgb(168, 127, 120);
+    color: rgb(247, 241, 241);
+    
+    cursor: pointer;
+    
+    padding: 11px 0;
+    text-transform: capitalize;
+
+}

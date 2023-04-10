@@ -1,0 +1,113 @@
+.axure {
+    background: url('../img/fon.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    position: relative;
+    padding-top: 58px;
+    padding-bottom: 38px;
+    
+}
+.axure::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/mask.png');
+    /* background: rgba(0, 0, 0, 0,55); */
+    z-index: 1;
+      
+}
+
+.axure__title {
+    font-size: 2.25rem;
+    text-align: center;
+    font-style: normal;
+    font-style: 'Raleway';
+    line-height: 42px;
+    font-weight: 100;
+    position: static;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+}
+
+ 
+.axure__title::after {  
+    content: '';
+    border-top: 1px solid rgb(245, 242, 242);
+    background-position: center; 
+    display: block;
+    margin: 34px auto 34px;
+    width: 64px;
+    /* position: relative;
+    z-index: 1; */
+    
+     }
+
+.axure__description {
+        max-width: 779px;
+        margin: auto;
+        /* margin-bottom: 58px; */
+        /* position: relative;
+    z-index: 1; */
+    }
+.axure__description p {
+      font-size: 1rem;
+      line-height: 18px;
+      font-weight: 300;
+      text-align: center;
+      font-family: 'Raleway';color: rgb(238, 231, 231);
+       }
+     
+
+.axure__link {
+    margin: 57px auto 0;
+    width: 135px;
+            }
+
+   .link__text {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 0.94rem;
+  line-height: 20px;
+  text-transform: capitalize;
+  padding: 11px 0;
+  border: 1px solid #fff;
+  animation: 1s pulsating-button ease-in-out infinite alternate;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+ z-index: 2;
+ 
+     
+}
+
+.link__text:hover {
+    color: rgb(88, 40, 40);
+      
+        
+  }
+
+  @keyframes pulsating-button {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  
